@@ -69,6 +69,20 @@ sort(array, array+10);
 
 
 
+void szukanieEle(int array[10], int i)
+{
+
+
+
+
+
+
+}
+
+
+
+
+
 int main(){
 
 int array[10];
@@ -88,6 +102,7 @@ for( int i = 0; i < 10; i++ )
 maxWartosc(array,i);
 minWartosc(array,i);
 sortowanie(array,i);
+szukanieEle(array,i);
 
 
    return 0;

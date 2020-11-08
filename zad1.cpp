@@ -12,13 +12,15 @@ using namespace std;
 
 int main(){
 
+int array[10]{};
+
 srand( time( NULL ) ); // ziarno do randomowych liczb..
 
-int arr[10][10] = {
-    
-
-};
 
 
-    return 0;
+
+cout << array[10] << endl;
+
+return 0;
 }
+

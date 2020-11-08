@@ -9,21 +9,46 @@ using namespace std;
 
 void maxWartosc(int array[10], int i)
 {
-int max;
+int maxValue;
 int a;
 
-max = array[0];     
+maxValue = array[0];     
 for( i = 0; i < a ; i++){ 
 
-if(array[i] > max) {
+if(array[i] > maxValue) {
 
-max = array[i];
+maxValue = array[i];
 
 
   }
  }
- cout << "Najwieksza wartosc z wylosowanych randomowo liczb to: " << max << endl;
+ cout << "Najwieksza wartosc z wylosowanych randomowo liczb to: " << maxValue << endl;
 }
+
+
+
+
+void minWartosc(int array[10], int i)
+{
+int minValue;
+int a;
+
+minValue = array[0];     
+for( i = 0; i < a ; i++){ 
+
+if(array[i] < minValue) {
+
+minValue = array[i];
+
+
+  }
+ }
+ cout << "Najmniejsza wartosc z wylosowanych randomowo liczb to: " << minValue << endl;
+}
+
+
+
+
 
 
 
@@ -45,6 +70,7 @@ for( int i = 0; i < 10; i++ )
 }
 
 maxWartosc(array,i);
+minWartosc(array,i);
 
 
    return 0;

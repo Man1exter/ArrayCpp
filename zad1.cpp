@@ -7,17 +7,22 @@ using namespace std;
 
 
 
-int maksymalnaWartosc(int array[10], int a)
+void maxWartosc(int array[10], int i)
 {
-int i;
 int max;
+int a;
 
 max = array[0];     
-for( i = 0; i < a ; i++) 
-if(array[i] > max) 
+for( i = 0; i < a ; i++){ 
+
+if(array[i] > max) {
+
 max = array[i];
- 
-return max;
+
+
+  }
+ }
+ cout << "Najwieksza wartosc: " << max << endl;
 }
 
 
@@ -26,6 +31,7 @@ return max;
 int main(){
 
 int array[10];
+int i;
 
 srand( time( NULL ) ); // ,,ziarno'' do randomowych liczb..
 
@@ -38,7 +44,8 @@ for( int i = 0; i < 10; i++ )
 
 }
 
-maksymalnaWartosc(array[10]);
+maxWartosc(array,i);
+
 
    return 0;
 }

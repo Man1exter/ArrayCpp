@@ -58,8 +58,8 @@ void sortowanie(int array[10], int i)
 
 sort(array, array+10);
 	
-    cout << "Wysortowane liczby od najmniejszej(od gory): \n";
-	for(int i = 0; i < 10 ;i++)cout<< array[i] << endl;
+    cout << "\nWysortowane liczby od najmniejszej:\n";
+	for(int i = 0; i < 10 ;i++)cout<< array[i]<<" - ";
 
 
 }

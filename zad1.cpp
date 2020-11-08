@@ -8,25 +8,20 @@ using namespace std;
 
 
 
-
-
 int main(){
 
-int array[10]{};
-int j;
+int array[10];
 
-srand( time( NULL ) ); // ziarno do randomowych liczb..
+srand( time( NULL ) ); // ,,ziarno'' do randomowych liczb..
 
 for( int i = 0; i < 10; i++ )
-    {
-        for ( int j = 1; j < 10; j++){
-        
-    array[i] = (( rand() % 100 ) + 1 );
+    { 
 
-        cout << j << " Wylosowana liczba: " << array[i] << endl;
-    }
+    array[i] = (( rand() % 100 ) + 1 ); // losowanie randomowych liczb..
+
+        cout << "Wylosowana liczba: " << array[i] << endl;
 }
 
-return 0;
+   return 0;
 }
 

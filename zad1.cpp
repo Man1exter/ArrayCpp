@@ -1,5 +1,6 @@
 #include <iostream>
 #include <ctime> //biblioteka do inicjalizacji randomowych liczb..
+#include<algorithm> //biblioteka do uzycia funkcji sort()..
 
 
 
@@ -28,6 +29,7 @@ maxValue = array[i];
 
 
 
+
 void minWartosc(int array[10], int i)
 {
 int minValue;
@@ -47,6 +49,18 @@ minValue = array[i];
 }
 
 
+
+
+
+
+void sortowanie()
+{
+
+
+
+
+
+}
 
 
 

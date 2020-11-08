@@ -1,6 +1,6 @@
 #include <iostream>
 #include <ctime> //biblioteka do inicjalizacji randomowych liczb..
-#include<algorithm> //biblioteka do uzycia funkcji sort()..
+#include <algorithm> //biblioteka do uzycia funkcji sort()..
 
 
 
@@ -23,7 +23,7 @@ maxValue = array[i];
 
   }
  }
- cout << "Najwieksza wartosc z wylosowanych randomowo liczb to: " << maxValue << endl;
+ cout << "\nNajwieksza wartosc z wylosowanych randomowo liczb to: " << maxValue << endl;
 }
 
 
@@ -45,7 +45,7 @@ minValue = array[i];
 
   }
  }
- cout << "Najmniejsza wartosc z wylosowanych randomowo liczb to: " << minValue << endl;
+ cout << "\nNajmniejsza wartosc z wylosowanych randomowo liczb to: " << minValue << endl;
 }
 
 
@@ -53,11 +53,13 @@ minValue = array[i];
 
 
 
-void sortowanie()
+void sortowanie(int array[10], int i)
 {
 
-
-
+sort(array, array+10);
+	
+    cout << "Wysortowane liczby od najmniejszej(od gory): \n";
+	for(int i = 0; i < 10 ;i++)cout<< array[i] << endl;
 
 
 }
@@ -85,6 +87,7 @@ for( int i = 0; i < 10; i++ )
 
 maxWartosc(array,i);
 minWartosc(array,i);
+sortowanie(array,i);
 
 
    return 0;

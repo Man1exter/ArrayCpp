@@ -22,7 +22,7 @@ max = array[i];
 
   }
  }
- cout << "Najwieksza wartosc: " << max << endl;
+ cout << "Najwieksza wartosc z wylosowanych randomowo liczb to: " << max << endl;
 }
 
 

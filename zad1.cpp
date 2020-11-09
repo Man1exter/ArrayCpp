@@ -77,11 +77,16 @@ int wyszukaj;
 cout << "\nPodaj element który cię interesuje do wyszukania by zwrocic jego index: " << endl;
 cin >> wyszukaj;
 
-if(array[i] == wyszukaj)
+for (int i = 0; i < array[10]; i++)
+{
 
-cout << "Szukany element ma index: " << i + 1 << endl; 
+if (array[i] == wyszukaj)
+{
+cout << "Zadany element znajduje sie w tablicy pod indeksem " << i + 1 << endl;
 
-
+    }
+  }
+  cout << "Wprowadziles liczbe ktorej nie ma w tablicy.." << endl;
 }
 
 

@@ -72,9 +72,14 @@ sort(array, array+10);
 void szukanieEle(int array[10], int i)
 {
 
+int wyszukaj;
 
+cout << "\nPodaj element który cię interesuje do wyszukania by zwrocic jego index: " << endl;
+cin >> wyszukaj;
 
+if(array[i] == wyszukaj)
 
+cout << "Szukany element ma index: " << i + 1 << endl; 
 
 
 }

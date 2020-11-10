@@ -36,7 +36,7 @@ int number, k; // k - o ile w  prawo i na 0 index
 
   cout << "Podaj elementy tablicy: " << endl;
 
-  int* arr = new int[number];
+  int* arr = new int[number]; // wartosc tablicy przypisana do nowej stwarzanej..
 
   for (int i = 0; i < number; i++)
     cin >> arr[i];
@@ -59,7 +59,7 @@ int number, k; // k - o ile w  prawo i na 0 index
 
 // 2. ostatni element zajmuje miejsce zerowe (przesuniecie),
 
-// 3. trzy instrukcje niżej .. . .. . . . .. . . . .  buf,
+// 3. trzy instrukcje niżej .. => buf,
 
 // 4. buf ostatni przejsciowy eleement tablicy,
 

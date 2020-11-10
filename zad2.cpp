@@ -13,9 +13,13 @@ void przejscie(int* arr, int number, int rightMove) {
   int index = 0, buf = arr[0]; // jako przejscia na miejsce 0 w tablicy..
 
   do {
-    int poz = (index + rightMove + number) % number;
-    swap(buf, arr[poz]);
-    index = poz;
+
+    int position = (index + rightMove + number) % number;
+
+    swap(buf, arr[position]);
+
+    index = position;
+
   }
    while (index != 0);
 
@@ -31,6 +35,7 @@ int number, k;
   cin >> number;
 
   cout << "Podaj elementy tablicy: " << endl;
+
   int* arr = new int[number];
 
   for (int i = 0; i < number; i++)
@@ -51,8 +56,11 @@ int number, k;
 }
 
 // 1. element w tablicy zajmuje miejsce sasiada w prawo,
+
 // 2. ostatni element zajmuje miejsce zerowe (przesuniecie),
+
 // 3. trzy instrukcje niżej .. . .. . . . .. . . . .  buf,
+
 // 4. buf ostatni przejsciowy eleement tablicy,
 
 
@@ -60,5 +68,7 @@ int number, k;
 // cyklicznosc podpowiedz o K w prawo
 
 //int buf=tab[r-1];
+
 //for (int j=r-1; j>0;j--) tab[j]=tab[j-1];
+
 //tab[0]=buf;

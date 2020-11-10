@@ -8,7 +8,7 @@ using namespace std;
 
 void przejscie(int* arr, int number, int rightMove) {
 
-  rightMove = (rightMove + number) % number;
+  rightMove = (rightMove + number) % number; // rightMove jako przesuniecie..
 
   int index = 0, buf = arr[0]; // jako przejscia na miejsce 0 w tablicy..
 

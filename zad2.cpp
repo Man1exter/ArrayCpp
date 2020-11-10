@@ -29,7 +29,7 @@ void przejscie(int* arr, int number, int rightMove) {
 
 int main(){
 
-int number, k;
+int number, k; // k - o ile w  prawo i na 0 index
 
   cout << "Podaj ile elementow ma mieć podana tablica:  ";
   cin >> number;

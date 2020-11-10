@@ -4,11 +4,42 @@
 
 using namespace std;
 
+void przejscie(int* tab, int number, int przes) {
 
+  przes = (przes + number) % number;
+
+  int indeks = 0, temp = tab[0];
+
+  do {
+    int poz = (indeks + przes + number) % number;
+    swap(temp, tab[poz]);
+    indeks = poz;
+  }
+   while (indeks != 0);
+
+}
 
 int main(){
 
+int number, k;
 
+  cout << "Podaj ile elementow ma mieć podana tablica:  ";
+  cin >> number;
+
+  cout << "Podaj elementy tablicy:" << endl;
+  int* tab = new int[number];
+
+  for (int i = 0; i < number; i++)
+    cin >> tab[i];
+
+  cout << "Przesuniecia o: ";
+  cin >> k;
+
+
+  przejscie(tab, number, k);
+
+  for (int i = 0; i < number; i++)
+    cout << tab[i] << " ";
 
 
 

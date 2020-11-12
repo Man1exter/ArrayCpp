@@ -23,20 +23,20 @@ void zamiana(int tab[])
 int main()
 {
         
-        int tablica[10] = {0, 3, 4, 3, 6, 7, 11, -5, -10, 87}; 
+        int arr[10] = {0, 3, 4, 3, 6, 7, 11, -5, -10, 87}; 
         
         
         for(int i = 0; i < 10 ; i++)
-                cout<<tablica[i]<<" ";
+                cout<<arr[i]<<" ";
         
         cout << endl; 
         
         
-        zamiana(tablica); 
+        zamiana(arr); 
         
        
         for(int i = 0 ; i < 10 ; i++)
-                cout<< tablica[i] <<" ";
+                cout<< arr[i] <<" ";
         
         cout << endl;
         

@@ -10,7 +10,7 @@ void przejscie(int* arr, int number, int rightMove) {
 
   rightMove = (rightMove + number) % number; // rightMove jako przesuniecie..
 
-  int index = 0, buf = arr[0]; // jako przejscia na miejsce 0 w tablicy..
+  int index = 0, buf = arr[0]; // buf jako przejscia na miejsce 0 w tablicy..
 
   do {
 
@@ -36,7 +36,7 @@ int number, k; // k - o ile w  prawo i na 0 index
 
   cout << "Podaj elementy tablicy: " << endl;
 
-  int* arr = new int[number]; // wartosc tablicy przypisana do nowej stwarzanej..
+  int* arr = new int[number]; // wartosc tablicy przypisana do pamieci komorki wraz z liczbami (podanymi) nowej stwarzanej..
 
   for (int i = 0; i < number; i++)
     cin >> arr[i];
@@ -61,7 +61,7 @@ int number, k; // k - o ile w  prawo i na 0 index
 
 // 3. trzy instrukcje niżej .. => buf,
 
-// 4. buf ostatni przejsciowy eleement tablicy,
+// 4. buf ostatni przejsciowy element tablicy,
 
 
 

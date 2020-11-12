@@ -18,5 +18,5 @@ int main(){
 }
 
 
-// tablica ze znakami
-// procedura przepisuje z tablicy do tablicy z innymi znakami
+// tablica ze znakami (liczbami)
+// procedura przepisuje z tablicy do tablicy z innymi znakami (liczbami , -)

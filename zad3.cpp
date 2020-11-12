@@ -1,5 +1,5 @@
 #include <iostream>
-#include <functional>
+
 
 
 
@@ -9,10 +9,10 @@ using namespace std;
 
 void przeciwne(int* arr, int liczby){
 
+cout << "Liczby przeciwne to: " << -liczby << endl;
 
-
-cout << "Przeciwne liczby to: " << przeciwnaLiczba << endl;
 }
+
 
 
 

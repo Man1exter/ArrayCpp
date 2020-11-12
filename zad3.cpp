@@ -1,4 +1,5 @@
 #include <iostream>
+#include <functional>
 
 
 
@@ -6,11 +7,11 @@ using namespace std;
 
 
 
-void przeciwne(int* arr, int liczby, int przeciwna){
+void przeciwne(int* arr, int liczby){
 
-przeciwna = arr[i];
 
-cout << "Przeciwne liczby to: " << przeciwna << endl;
+
+cout << "Przeciwne liczby to: " << przeciwnaLiczba << endl;
 }
 
 
@@ -33,6 +34,11 @@ int* arr = new int[liczby];
 for(int i = 0; i < liczby; i++)
 
 cin >> arr[i];
+
+
+przeciwne(arr,liczby);
+
+
 
     return 0;
 }

@@ -3,17 +3,14 @@
 
 
 
-
 using namespace std;
+
+
  
-
-
-
-void zamiana(int tab[])
+void przeciwny(int tab[])
 {
-        for(int i = 0; i < 10; i++){
-                tab[i] *= tab[i]; 
-        }
+        for(int i = 0; i < 10; i++)
+                tab[i] *= (-1); 
 }
  
 
@@ -23,21 +20,24 @@ void zamiana(int tab[])
 int main()
 {
         
-        int arr[10] = {0, 3, 4, 3, 6, 7, 11, -5, -10, 87}; 
+        int array[10] = {1, 5, 8, 22, 61, 17, 11, 15, 10, 87}; 
         
+        cout << endl;
         
-        for(int i = 0; i < 10 ; i++)
-                cout<<arr[i]<<" ";
+        for(int i = 0; i < 10; i++)
+                cout<< array[i] <<" ";
         
+        cout << endl; 
         cout << endl; 
         
         
-        zamiana(arr); 
+        przeciwny(array); 
         
-       
-        for(int i = 0 ; i < 10 ; i++)
-                cout<< arr[i] <<" ";
         
+        for(int i = 0; i < 10; i++)
+                cout<< array[i] <<" ";
+        
+        cout << endl;
         cout << endl;
         
         
@@ -45,6 +45,3 @@ int main()
 }
 
 
-// tablica ze znakami (liczbami)
-// procedura przepisuje z tablicy do tablicy 
-// z innymi znakami (liczbami , -)

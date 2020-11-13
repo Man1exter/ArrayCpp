@@ -46,16 +46,12 @@ void rozwiazanie_tab(){
             if(nierownosc1 && nierownosc2) 
             tab[y][x] = '#';
 
-            else 
+             else 
             tab[y][x] = '+';
-
+              
             }
         }
-
 }
-
-
-
 
 
 

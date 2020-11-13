@@ -10,14 +10,16 @@ char tab[LW][LK];
 
 // tablica globalna
 
-void pokaz_tab();
+void pokaz_tab(){
 
-//uklad nierownosci - rozwiazanie
+
 
 (x-13)​2​ + (y-10)​2​ <= 64;
 
 y < 1.15 * x;
 
+
+}
 void rozwiazanie_tab();
 
 
@@ -31,15 +33,8 @@ int main(){
 
 
     rozwiazanie_tab();
-    
-
-
-
-
     pokaz_tab();
     
-
-
 
 
     getch();
@@ -49,6 +44,7 @@ int main(){
 
     return 0;
     }
+    
     
     void rozwiazanie_tab(){
 

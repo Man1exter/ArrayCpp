@@ -14,7 +14,7 @@ int main(){
 
 
 char zdanie[200];             // ograniczenie do 200 znakow
-int liczenie[123] = {};       // duze i male 122 najwieksze + 1 = 123..
+int liczenie[123]{};       // duze i male 122 najwieksze + 1 = 123..
 
 int i = 0; // index w tablicy;
 
@@ -26,7 +26,7 @@ cin >> zdanie;
 while(zdanie[i])
 {
 
-liczenie[zdanie[i]]++;
+liczenie[zdanie[i]]++;           // zwiekszenie i dopiero potem przypisanie
 
 i++;
 

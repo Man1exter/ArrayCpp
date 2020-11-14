@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 
 
@@ -16,13 +17,14 @@ void iloscSzukana(){
 int main(){
 
 int *wskaznik;
-int wartosc;
+string wartosc;
 int ilosc;
 
-cout << "Podaj liczby, ktore zostana zliczone: " << endl;
+cout << "Podaj lanuch znakow ktory zostanie zliczony na znaki: " << endl;
 cin >> wartosc;
 
 
+wskaznik = new int 
 
 iloscSzukana();
 

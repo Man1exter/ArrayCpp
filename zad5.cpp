@@ -7,26 +7,47 @@ using namespace std;
 
 
 
-void iloscSzukana(){
-
-
-}
 
 
 
 int main(){
 
-int *wskaznik;
-string wartosc;
-int ilosc;
 
-cout << "Podaj lanuch znakow ktory zostanie zliczony na znaki: " << endl;
-cin >> wartosc;
+char zdanie[101];
+int liczenie[123]{};
+
+int index = 0; // index w tablicy;
 
 
-wskaznik = new int 
+cout << "Podaj zdanie ktore zostanie zliczone na znaki: " << endl;
+cin >> zdanie;
 
-iloscSzukana();
+
+while(zdanie[index])
+{
+
+liczenie[zdanie[index]]++;
+
+index++;
+
+}
+
+
+for(int i = 97; i < 123; i++){        
+                                             // male liter 97 - 122 ------- duze liter 65 - 90 // +1 jako miejsce zerowe'
+    if(liczenie[index] < 0){
+
+        cout << "Posiadane zdanie ma: " << (char)index << " - " << liczenie[index] << endl;
+    }
+}
+
+for(int i = 65; i < 91; i++){        
+                                             // male liter 97 - 122 ------- duze liter 65 - 90 // +1 jako miejsce zerowe'
+    if(liczenie[index] < 0){
+        
+        cout << "Posiadane zdanie ma: " << (char)index << " - " << liczenie[index] << endl;
+    }
+}
 
     return 0;
 }

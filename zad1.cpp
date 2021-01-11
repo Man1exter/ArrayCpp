@@ -7,7 +7,6 @@
 using namespace std;
 
 
-
 void maxWartosc(int array[10], int i)
 {
 int maxValue;
@@ -25,8 +24,6 @@ maxValue = array[i];
  }
  cout << "\nNajwieksza wartosc z wylosowanych randomowo liczb to: " << maxValue << endl;
 }
-
-
 
 
 
@@ -50,9 +47,6 @@ minValue = array[i];
 
 
 
-
-
-
 void sortowanie(int array[10], int i)
 {
 
@@ -63,11 +57,6 @@ sort(array, array+10);
 
 
 }
-
-
-
-
-
 
 void szukanieEle(int array[10], int i)
 {
@@ -88,9 +77,6 @@ cout << "Zadany element znajduje sie w tablicy pod indeksem " << i + 1 << endl;
   }
   cout << "Wprowadziles liczbe ktorej nie ma w tablicy.." << endl;
 }
-
-
-
 
 
 int main(){

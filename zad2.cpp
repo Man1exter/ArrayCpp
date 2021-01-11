@@ -26,7 +26,6 @@ void przejscie(int* arr, int number, int rightMove) {
 }
 
 
-
 int main(){
 
 int number, k; // k - o ile w  prawo i na 0 index

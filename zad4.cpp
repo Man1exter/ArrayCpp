@@ -17,13 +17,12 @@ char tab[LW][LK];         // tablica globalna tab[x][y]
 
 
 
-void pokaz_tab(){
+void pokaz_tab( int &nierownosc1,int &nierownosc2){
 
-int nierownosc1, nierownosc2;
+// int nierownosc1, nierownosc2;
 
-
-cout << *tab << endl;
-cout << *tab << endl;
+cout << nierownosc1 << endl;
+cout << nierownosc2 << endl;
 
 
 }
@@ -59,17 +58,15 @@ int main(){
     
  int nierownosc1, nierownosc2;
 
-
     rozwiazanie_tab();
 
-
-    pokaz_tab();
+    pokaz_tab(nierownosc1,nierownosc2);
     
 
     getch();
     
     return 0;
-    }
+}
 
     
     

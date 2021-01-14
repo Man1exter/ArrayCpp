@@ -8,7 +8,7 @@ using namespace std;
 const int LW = 20, LK = 30;
 char tab[LW][LK]; // tablica globalna tab[x][y]
 
-void pokaz_tab(int nierownosc1, int nierownosc2)
+void pokaz_tab(int& nierownosc1, int& nierownosc2)
 {
     int x,y;
 

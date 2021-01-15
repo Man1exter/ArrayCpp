@@ -1,13 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 
-
-
 using namespace std;
-
-
-
-
 
 
 int main(){
@@ -41,7 +35,6 @@ for(int i = 97; i < 123; i++){
     }
 }
 
-        
 
 for(int i = 65; i < 91; i++){      
                                              // male liter 97 - 122 ------- duze liter 65 - 90 // +1 jako miejsce zerowe'
@@ -51,7 +44,6 @@ for(int i = 65; i < 91; i++){
     }
 }
 
-        
         return 0;
 
 }

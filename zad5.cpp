@@ -11,12 +11,11 @@ int liczenie[123]{};       // duze i male 122 najwieksze + 1 = 123..
 int i = 0; // index w tablicy;
 
 cout << "Podaj wyraz ktory zostanie zliczony na znaki: " << endl;
-cin >> zdanie;
+cin >> wyraz;
 
-while(zdanie[i])
+while(wyraz[i])
 {
-
-liczenie[zdanie[i]]++;           // zwiekszenie i dopiero potem przypisanie
+liczenie[wyraz[i]]++;           // zwiekszenie i dopiero potem przypisanie
 i++;
 }
 
